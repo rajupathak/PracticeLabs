@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SanityTestSuite]" parallel="tests">
+  <test name="Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.parallel.test.ClassG">
+        <methods>
+          <include name="G"/>
+        </methods>
+      </class> <!-- com.parallel.test.ClassG -->
+      <class name="com.parallel.test.ClassB">
+        <methods>
+          <include name="B"/>
+        </methods>
+      </class> <!-- com.parallel.test.ClassB -->
+      <class name="com.parallel.test.ClassD">
+        <methods>
+          <include name="D"/>
+        </methods>
+      </class> <!-- com.parallel.test.ClassD -->
+      <class name="com.parallel.test.ClassE">
+        <methods>
+          <include name="E"/>
+        </methods>
+      </class> <!-- com.parallel.test.ClassE -->
+      <class name="com.parallel.test.ClassF">
+        <methods>
+          <include name="F"/>
+        </methods>
+      </class> <!-- com.parallel.test.ClassF -->
+      <class name="com.parallel.test.ClassA">
+        <methods>
+          <include name="A"/>
+        </methods>
+      </class> <!-- com.parallel.test.ClassA -->
+      <class name="com.parallel.test.ClassC">
+        <methods>
+          <include name="C"/>
+        </methods>
+      </class> <!-- com.parallel.test.ClassC -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [SanityTestSuite] -->

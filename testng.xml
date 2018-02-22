@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SanityTestSuite" parallel="tests" thread-count="5">
+  <test name="TestA">
+    <classes>
+      <class name="com.parallel.test.ClassA"/>
+      <class name="com.parallel.test.ClassB"/>
+      <class name="com.parallel.test.ClassC"/>
+      <class name="com.parallel.test.ClassD"/>
+     
+    </classes>
+  </test> <!-- TestA -->
+  
+  <test name="TestB">
+    <classes>
+      <class name="com.parallel.test.ClassE"/>
+      <class name="com.parallel.test.ClassF"/>
+     
+    </classes>
+  </test> <!-- TestB -->
+  
+  
+  <test name="TestC">
+    <classes>
+      <class name="com.parallel.test.ClassG"/>
+      
+    </classes>
+  </test> <!-- TestC -->
+</suite> <!-- SanityTestSuite -->
